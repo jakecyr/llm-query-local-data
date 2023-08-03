@@ -1,6 +1,6 @@
 # LLM Search
 
-Search through documents using the power of LLMs and semantic search through local vector indexes.
+Query for information in documents using natural language and the power of LLMs and semantic search through local vector indexes.
 
 ## Installation
 
