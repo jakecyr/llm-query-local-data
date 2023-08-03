@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "llm-search"
+version = "0.1.0"
+description = "Search through documents using the power of LLMs and semantic search through vector indexes."
+authors = ["Jake Cyr <cyrjake@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "llm_search" }]
+
+[tool.poetry.dependencies]
+python = ">=3.8.1,<4.0"
+llama-index = "^0.7.17"
+langchain = "^0.0.250"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
